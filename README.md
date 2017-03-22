@@ -1,17 +1,19 @@
-# Getting Started
+# Angular2组件库
 
-Super simple Angular 2 app with 1 module and 2 routes 
+## Quick Start
+
+ng2组件库，提供数据平台的应用组件。
 
 ## Get the Code
 ```
-git clone https://github.com/johnpapa/angular2-go.git a2-go
-cd a2-go
+git clone https://github.com/hebaby/ui-xg-ng2.git ui-xg-ng2
+cd ui-xg-ng2
 npm i
 ```
 
 ### Just in Time (JiT) Compilation
 
-Runs the TypeScript compiler and launches the app
+在JIT环境下运行
 
 ```
 npm start
@@ -19,7 +21,7 @@ npm start
 
 ### Ahead of Time (AoT) Compilation 
 
-Runs the Angular AoT compiler, rollup, uglify for an optimized bundle, then launches the app
+在AOT环境下运行
 
 ```
 npm run start-aot
@@ -27,7 +29,7 @@ npm run start-aot
 
 ### AoT + gzip 
 
-Runs AoT plus gzips and launches the app 
+在AOT环境下运行并执行gzip
 
 ```
 gulp copy-aot-gzip
@@ -36,7 +38,3 @@ npm run rollup
 http-server
 ```
 
-Notes:
-- Use your favorite server in place of `http-server`
-- This could be scripted, obviously
-- `lite-server` does not launch gzipped files by default.
