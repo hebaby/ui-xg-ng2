@@ -1,0 +1,13 @@
+<h2>Dashboard</h2>
+<div>Hello {{name}}</div>
+<alert type="info">
+  <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+</alert>
+
+<input [(ngModel)]="name" />
+<button (click)="sayHello()">Say Hello</button>
+<p>{{message}}</p>
+
+<button type="button" class="btn btn-default default" (click)="sayNotify()">Send default notification</button>
+
+<ng2-notify></ng2-notify>
